@@ -1,0 +1,41 @@
+print("please enter the month as"
+      "for example : jan for january")
+day=int(input("enter the day"))
+month=input("enter the month")
+if( (month =='march')and day in range(20,32)):
+    print("the season currently is summer")
+    
+elif((month =='april'or month =='may')and day in range(1,32)):
+    print("the season currently is summer")
+    
+elif((month =='june')and day in range(1,21)):
+    print("the season currently is summer")
+    
+elif((month =='june')and day in range (21,31)):
+    print("the season currently is spring")
+    
+elif((month =='july'or'aug') and day in range (1,32)):
+    print("the season currently is spring")
+    
+elif((month =='sep')and day in range (1,22)):
+    print("the season currently is spring")
+    
+elif((month =='sep')and day in range (22,31)):
+    print("the season currently is fall")
+    
+elif((month =='oct' or month =='nov')and day in range(1,32)):
+    print("the season currently is fall")
+    
+elif((month =='dec')and day in range (1,22)):
+    print("the season currently is fall")
+    
+elif((month =='dec')and day in range(1,21)):
+    print("the season currently is winter")
+    
+elif((month =='jan'or month =='feb')and day in range(1,32)):
+    print("the season currently is winter")
+    
+elif((month =='march')and day in range(1,20)):
+        print("the season currently is winter")
+else:
+    print("please enter the input as required")
