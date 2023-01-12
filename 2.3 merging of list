@@ -1,0 +1,14 @@
+n=int(input("enter the number of elements in first list"))
+m=int(input("enter the number of elements in second list"))
+a=[]
+b=[]
+for i in range(0,n):
+    c=int(input("enter the element for list one"))
+    a.append(c)
+for j in range(0,m):
+    d=int(input("enter the element for list two"))
+    b.append(d)
+e=a+b
+e.sort()
+print(e)
+
