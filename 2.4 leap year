@@ -1,0 +1,19 @@
+n=int(input("enter date"))
+if (n>0):
+    if(n%400==0):
+        print("given year is leap year")
+    elif(n%100==0):
+        print("given year is non leap year")
+        a=n%4
+        year=n-a
+        print("leap year - ",year)
+    elif(n%4==0):
+        print("given year is leap year")
+    else:
+        print("given year is non leap year")
+        a=n%4
+        year=n-a
+        print("leap year - ",year)
+else:
+    print("given input is invalid")
+        
